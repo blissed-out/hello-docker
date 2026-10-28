@@ -4,5 +4,5 @@
 git clone https://github.com/blissed-out/hello-docker
 cd hello-docker
 docker build -t hello-user .
-docker run -e Name="your_name" hello-user
+docker run -e Name=$USER hello-user
 ```
